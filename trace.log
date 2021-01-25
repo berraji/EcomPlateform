@@ -1,0 +1,1 @@
+Select * from produitsSelect * from produits WHERE designation like '%Casquette%' OR description like '%Casquette%'

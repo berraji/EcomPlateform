@@ -1,0 +1,84 @@
+<?php
+	session_start();
+	require('connexion.php');
+	require('securityAdmin.php');
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nouveau produit</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<style type="text/css">
+		.tab
+		{
+			position: fixed;
+  			top: 50%;
+ 	 		left: 50%;
+  			transform: translate(-50%, -50%);
+  			margin-top: 30px;
+
+		}
+		th
+		{
+			text-align: center;
+		}
+		
+</head>
+<body>
+	<?php 
+	require('header.php'); 
+	?>
+
+
+	<form action = "insertproduct.php" method="post">
+		<table class = 'tab' border="1" align="center">
+			<tr><th colspan="2">Nouveau Produit</th></tr>
+			<tr>
+				<td>Designation</td>
+				<td><input type="text" name="pdesignation" required></td>
+			</tr>
+			<tr>
+				<td>Description</td>
+				<td><textarea name="pdescription" required></textarea></td>
+			</tr>
+			<tr>
+				<td>Prix</td>
+				<td><input type="text" name="prix" required></td>
+			</tr>
+			<tr>
+				<td>Livraison</td>
+				<td>
+					<input type="radio" name="pliv" value="g" checked="yes"> Gratuit
+					<input type="radio" name="pliv" value="p"> Non 
+				</td>
+			</tr>
+			<tr>
+				<td>Categorie </td>
+				<td>
+					<select name="cat" required="yes" required="yes">
+						<option  value = "0" checked>Clicker pour selectionner</option>
+						<?php
+							$query = "Select num, designation from categories";
+							$result = mysqli_query($con,$query);
+
+							while($cat = mysqli_fetch_row($result))
+							{
+								echo "<option value = ".$cat[0].">".$cat[1]."</option>";
+							} 
+						?>
+					</select> 
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Ajouter"></td>
+				<td><input type="reset" value="Annuler"></td>
+			</tr>
+
+
+		</table>
+	</form>
+
+</body>
+</html>

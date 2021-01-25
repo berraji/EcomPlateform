@@ -1,0 +1,20 @@
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat)
+VALUES ('','','','',''); | 2020:04:12 16:38:12 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat)
+VALUES ('','','','',''); | 2020:04:12 16:42:54 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat)
+VALUES ('x','y','1','p','1'); | 2020:04:13 13:23:50 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat)
+VALUES ('x','y','1','p','1'); | 2020:04:13 13:24:36 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat)
+VALUES ('Nokia 3 TA-1032 5\" (16Go, 2Go) Android 8MP/8MP - Noir','Design sculpté, fabriqué avec soin\r\n\r\nNokia 3 est livré avec nos caractéristiques de conception classiques: un dos en polycarbonate magnifiquement conçu et sculpté, un cadre en aluminium solide, des détails soigneusement finis et des performances optimisées pour une utilisation quotidienne.','749','p','2'); | 2020:04:13 14:23:08 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat)
+VALUES ('Nokia 3 TA-1032 5\" (16Go, 2Go) Android 8MP/8MP - Cuivre','Design sculpté, fabriqué avec soin\r\n\r\nNokia 3 est livré avec nos caractéristiques de conception classiques: un dos en polycarbonate magnifiquement conçu et sculpté, un cadre en aluminium solide, des détails soigneusement finis et des performances optimisées pour une utilisation quotidienne.','749','p','2'); | 2020:04:13 14:27:02 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat)
+VALUES ('Samsung Galaxy M30s 4G 6.4\" (4Go, 64Go) Android - 48MP+8MP+5MP/16MP -6000mAh - Noir','Game Booster vous donne l\'avantage\r\n\r\nMaximisez les performances avec la technologie Game Booster qui donne des graphiques fluides, des mouvements réalistes et apprend vos habitudes d\'utilisation pour optimiser la batterie, la température et la mémoire.','2140','g','2'); | 2020:04:13 14:29:38 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat,url)
+VALUES ('Lot 10 Masques de protection réutilisable Lavable certifié IMANOR 3Plis','Cela fait un coût à l\'utilisation réduit au regard d\'un masque jetable dont l\'utilisation est unique.\r\nCe masque est destiné à diminuer le facteur de risque de transmission des agents infectieux (Virus, Grippe, COVID-19,...). \r\nSon port, permet de constituer une barrière de protection contre une éventuelle pénétration virale dans la zone bouche et nez de son utilisateur ou d\'une personne se trouvant à proximité.Lavage des masques de manière séparées (ne pas mélanger avec le reste du linge) afin d\'éviter la rupture des lanières.\r\nLavage fortement recommandé dans un filet à linge séparé.','89','g','1','1590449122'); | 2020:05:26 01:25:22 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat,url)
+VALUES ('Prod','Prod z desc','90','p','2','1590449452'); | 2020:05:26 01:30:52 | 127.0.0.1
+brahim | INSERT INTO produits (designation,description,prix, livraison,numcat,url)
+VALUES ('A','B','64','p','1','1590492034'); | 2020:05:26 13:20:34 | 127.0.0.1
